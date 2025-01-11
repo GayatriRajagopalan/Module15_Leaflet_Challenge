@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.info.legend {
+  background: white; /* White background */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
+}
+
+.info.legend i {
+  width: 20px;
+  height: 20px;
+  display: inline-block; /* Keeps the color boxes next to each other */
+  margin-right: 0; /* No space between the color boxes */
+}
+
