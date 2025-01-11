@@ -32,6 +32,25 @@ Magnitude
 
 Depth
 
+# Files
+
+index.html: This is the main HTML file that contains the structure of the map page. It includes the necessary script tags for both Part 1 (logic.js) and Part 2 (logic_tectonicplates.js). By default, the script for Part 2 is commented out. To switch between the two parts, you can simply uncomment the script tag for logic_tectonicplates.js.
+
+style.css: This CSS file contains the styling for the map and the page layout.
+
+logic.js: This JavaScript file contains the code for Part 1 of the challenge. It handles the earthquake data visualization using Leaflet. In this part, earthquake data is fetched from the USGS GeoJSON feed and displayed on the map with dynamically sized markers based on magnitude and color based on depth.
+
+logic_tectonicplates.js: This JavaScript file contains the code for Part 2 of the challenge. It extends the map by adding tectonic plate boundaries and displaying them alongside the earthquake data. By default, the script for Part 2 is commented out in index.html. To enable Part 2, simply uncomment the relevant script tag in the index.html file.
+
+# How the script tags work:
+
+The index.html file includes both JavaScript files.
+
+The script for logic.js (Part 1) is always active.
+
+The script for logic_tectonicplates.js (Part 2) is commented out in the index.html file by default. To enable Part 2, simply uncomment the relevant script tag.
+
+
 # Part 1: Create the Earthquake Visualization
 
 Leaflet-Part-1 consists of a basic map that:
